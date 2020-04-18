@@ -1,0 +1,197 @@
+body {
+    background-color: lightyellow;
+}
+header {
+    /* display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 240px; */
+    display: flex;
+}
+
+#profile-pic {
+    width: 210px;
+    height: 210px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border: 1px solid rgb(214,213,209);
+}
+
+
+#target {
+    /* display: flexbox;
+    justify-content: left; */
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    font-size: 90px;
+    color: rgb(35,13,81);
+}
+
+/* #target {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border-bottom-style: solid;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+} */
+
+main {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 20% 20% 35% 25%;
+    height: 1100px;
+    width: 100%;
+    border-bottom-style: solid;
+}
+
+#background-pic {
+    width: 100%;
+    height: 873px;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 60px;
+    color: rgb(35,13,81);
+}
+
+#lowertitle {
+    margin-top: 0px;
+}
+
+#personal {
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 20px;
+    color: rgb(113,111,125);
+}
+
+.background {
+    background-image: url("Blue-Plain-Image.jpg");
+    display: block;
+    justify-content: center;
+}
+
+span {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    margin-top: 120px;
+}
+
+#line {
+    font-weight: bolder;
+}
+
+h3 {
+    margin-left: 60px;
+    color: rgb(35,13,81);
+}
+
+.grayline {
+    font-weight: bolder;
+}
+
+p {
+    margin-left: 60px;
+    color: rgb(195,200,196);
+    font-size: 20px;
+}
+
+.smalltext {
+    margin-right: 120px;
+}
+
+#phone {
+    width: 45px;
+    height 45px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+#number {
+    display: none;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+#location {
+    width: 45px;
+    height 45px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+#street{
+    margin-bottom: 0px;
+}
+
+#city {
+    margin-top: 0px;
+}
+
+#mail {
+    width: 45px;
+    height 45px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+}
+
+.largetext {
+    font-size: 20px;
+    color: rgb(154,159,155);
+    margin-bottom: 5px;
+}
+
+.job {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+li {
+    margin-left: 60px;
+    color: rgb(195,200,196);
+    font-size: 20px; 
+}
+
+#linkedin {
+    width: 45px;
+    height: 45px;
+    margin-left: 45%; 
+    margin-top: 40px;
+}
+
+a {
+    margin-left: 10%;
+    color: rgb(195,200,196);
+    font-size: 20px;
+}
+
+#thelink {
+    font-size: 10px;
+}
